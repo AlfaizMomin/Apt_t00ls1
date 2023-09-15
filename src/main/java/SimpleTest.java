@@ -17,6 +17,7 @@ public class SimpleTest {
             byte[] textByte = text.getBytes("UTF-8");
             String encodedText = encoder.encode(textByte).replace("\r\n","");
             System.out.println(encodedText);
+             System.out.println(encodedText);
         } catch (UnsupportedEncodingException e) {
             e.printStackTrace();
         }
