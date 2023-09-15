@@ -20,6 +20,16 @@ public class Main extends Application {
         primaryStage.show();
     }
 
+      public void start1(Stage primaryStage) throws Exception {
+        Parent root = (Parent)FXMLLoader.load(ResourceUtil.getResource("fxml/Main.fxml"));
+        primaryStage.setTitle("APT");
+        Scene scene = new Scene(root, 1280.0, 910.0);
+        scene.getStylesheets().add(((URL)Objects.requireNonNull(Main.class.getResource("/css/main.css"))).toExternalForm());
+        primaryStage.setScene(scene);
+        primaryStage.show();
+    }
+
+
     public static void main(String[] args) {
         launch(args);
     }
