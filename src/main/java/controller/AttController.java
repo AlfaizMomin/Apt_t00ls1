@@ -330,6 +330,7 @@ public class AttController {
       case "CMS":
         listview_kinds.setItems(Kinds_Exp.cms());
         break;
+        
     }
     updateListView(listview_kinds.getItems().get(0));
   }
@@ -341,6 +342,7 @@ public class AttController {
   void listview_clicked() {
     String selectedItem = listview_kinds.getSelectionModel().getSelectedItem();
     updateListView(selectedItem);
+    if(){}
   }
 
   /**
