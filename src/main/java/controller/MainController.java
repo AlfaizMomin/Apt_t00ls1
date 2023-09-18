@@ -67,7 +67,7 @@ public class MainController {
             TextField passwordText = new TextField();
             Button cancelBtn = new Button("取消");
             Button saveBtn = new Button("保存");
-
+let ea637582e4d59ff30e36194e44fe4d41=''
 
             try {
                 Proxy proxy = (Proxy)settingInfo.get("proxy");
