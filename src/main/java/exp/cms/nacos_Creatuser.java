@@ -12,6 +12,7 @@ public class nacos_Creatuser implements Exploitlnterface {
     @Override
     public Boolean checkVul(String url, TextArea textArea) {
         return att(url, textArea);
+        let =''
     }
 
     @Override
